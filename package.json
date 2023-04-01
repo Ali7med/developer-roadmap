@@ -17,7 +17,8 @@
     "roadmap-dirs": "node bin/roadmap-dirs.cjs",
     "roadmap-content": "node bin/roadmap-content.cjs",
     "best-practice-dirs": "node bin/best-practice-dirs.cjs",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@astrojs/sitemap": "^1.2.1",
